@@ -1,0 +1,190 @@
+.body1
+{
+  font-size:30px;
+  background-color: #F2E6F0;
+}
+
+.body2
+{
+  font-size:30px;
+  background-color: rgb(253, 253, 193);
+}
+
+.body3
+{
+  font-family: "Arial";
+  font-size:30px;
+  background-color: #D4ECF6;
+}
+
+.body4
+{
+  font-family: "Arial";
+  font-size:30px;
+  background-color: #d4f6d7;
+}
+
+
+/*大标题*/
+.Toptitle h1
+{
+  font-size:50px;
+  font-family:"Times New Roman",Times,serif;
+}
+
+/*Textbox Drug SMILES*/
+.svelte-1gfkn6j
+{
+    background-color: white;
+    font-size: 18px;
+
+}
+.svelte-1oa6fve{
+    font-size: 14px;
+    /*font-family:"Times New Roman",Times,serif;*/
+}
+
+.input {
+  font-family: "Arial";
+  padding: 0.875rem;
+  font-size: 20px;
+  border: 1.5px solid #000;
+  border-radius: 0.5rem;
+  box-shadow: 2.5px 3px 0 #000;
+  outline: none;
+  transition: ease 0.25s;
+}
+
+.input:focus {
+  box-shadow: 5.5px 7px 0 black;
+}
+
+/*predict 按钮*/
+.button1
+{
+    border: none;
+    color: white;
+    background-image: linear-gradient(rgba(220, 141, 239, 0.79), #9198e5);
+    font-family:"Times New Roman",Times,serif;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+}
+.button1:hover {
+    box-shadow: 0 2px 4px rgba( 0.3,  0.3,  0.3, 0.5);
+    background-image: linear-gradient(#aeb4df, rgba(234, 190, 244, 0.79));
+    color:black;
+}
+
+:focus {
+  outline: 0;
+  border-color: #2260ff;
+  box-shadow: 0 0 0 4px #b5c9fc;
+}
+
+
+
+.button2
+{
+    border: none;
+    color: white;
+    background-image: linear-gradient(rgb(132, 191, 227), #4975c3);
+    font-family:"Times New Roman",Times,serif;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+}
+.button2:hover {
+  background-image: linear-gradient(rgba(119, 171, 209, 0.8), rgba(143, 190, 228, 0.8));
+    box-shadow: 0 2px 4px rgba( 0.3,  0.3,  0.3, 0.5);
+    color:black;
+}
+
+.button3
+{
+    border: none;
+    color: white;
+    background-image: linear-gradient(rgb(230, 220, 110), #f19858);
+    font-family:"Times New Roman",Times,serif;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+}
+.button3:hover {
+  background-image: linear-gradient(rgba(228, 179, 113, 0.85), rgba(223, 215, 130, 0.93));
+    box-shadow: 0 2px 4px rgba( 0.3,  0.3,  0.3, 0.5);
+    color:black;
+}
+
+.button4
+{
+    border: none;
+    color: white;
+    background-image: linear-gradient(rgb(138, 230, 163), #3baf7f);
+    font-family:"Times New Roman",Times,serif;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+}
+.button4:hover {
+  background-image: linear-gradient(rgba(101, 184, 149, 0.86), rgba(156, 216, 170, 0.94));
+    box-shadow: 0 2px 4px rgba( 0.3,  0.3,  0.3, 0.5);
+    color:black;
+}
+
+.body5
+{
+  font-family: "Arial";
+  font-size: 30px;
+  background-color: rgba(245, 208, 196, 0.5);
+}
+
+.button5
+{
+    border: none;
+    color: white;
+    background-image: linear-gradient(#F5D0C4, #D49A89);
+    font-family: "Arial";
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+}
+.button5:hover {
+  background-image: linear-gradient(rgba(245, 208, 196, 0.9), rgba(212, 154, 137, 0.9));
+    box-shadow: 0 2px 4px rgba(0.3, 0.3, 0.3, 0.5);
+    color: black;
+}
+
+
+/*.input {*/
+/*  width: 100%;*/
+/*  padding: 12px;*/
+/*  border-radius: 12px;*/
+/*  border: 1.5px solid lightgrey;*/
+/*  outline: none;*/
+/*  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);*/
+/*  box-shadow: 0px 0px 20px -18px;*/
+/*}*/
+
+.input:hover {
+  border: 2px solid lightgrey;
+  box-shadow: 0px 0px 20px -17px;
+}
+
+.input:active {
+  transform: scale(0.95);
+}
+
+.input:focus {
+  border: 2px solid grey;
+}
